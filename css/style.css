@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Rajdhani&display=swap');
+
+.nav{
+  height: 50px;
+  background: #2e3332;
+}
+.nav div{
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  padding: 15px;
+  font-size: 20px;
+  color: #c29ba3;
+  font-family: 'Rajdhani', sans-serif;
+}
+.nav ul{
+  position: absolute;
+  right: 5px;
+}
+.nav ul li{
+  display: inline-block;
+  position: relative;
+  right: 20px;
+}
+.nav ul li a{
+  color: #c29ba3;
+  font-family: 'Rajdhani', sans-serif;
+  padding: 5px;
+}
+.home{
+  background: url("../images/homeBackgrou.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+.home .presenting {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #336699;
+  font-family: 'Rajdhani', sans-serif;
+  height: 35vh;
+  width: 70%;
+  Position: relative;
+  Left: 300px;
+}
+.home .text-container p{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #336699;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 25px;
+}
+.about{
+  background: url("../images/homeBackg.png") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+.about .sobre{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #336699;
+  font-family: 'Rajdhani', sans-serif;
+  height: 35vh;
+  width: 70%;
+  Position: relative;
+  Left: 300px;
+}
+.about .text-container p{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #336699;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 25px;
+  position: relative;
+  top: 10px;
+}
+.about .boxfortext{
+  height: 85%vh;
+  width: 85%vh;
+  opacity: 0.95;
+  background-color: #2e3332;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  position: relative;
+  top: 300px;
+}
+.possibilities{
+  background: url("../images/homeBack.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+.possibilities .possib{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #336699;
+  font-family: 'Rajdhani', sans-serif;
+  height: 35vh;
+  width: 70%;
+  Position: relative;
+  Left: 300px;
+}
+.possibilities .text-container p{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #336699;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 23px;
+  position: relative;
+  top: 10px;
+}
+.possibilities .boxfortext{
+  height: 85%vh;
+  width: 85%vh;
+  opacity: 0.95;
+  background-color: #2e3332;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  position: relative;
+  top: 300px;
+}
+.knownsystems{
+  background: url("../images/homeBack.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.knownsystems .systems{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #336699;
+  font-family: 'Rajdhani', sans-serif;
+  height: 35vh;
+  width: 70%;
+  Position: relative;
+  Left: 300px;
+}
+.knownsystems .text-container p{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #336699;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 18px;
+  position: relative;
+  top: 10px;
+}
+.knownsystems .boxfortext{
+  height: 85%vh;
+  width: 85%vh;
+  opacity: 0.95;
+  background-color: #2e3332;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  position: relative;
+  top: 300px;
+}
+.systems .card-container ul{
+   padding: 0;
+}
+.systems .card-container ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 20px;
+   width: 300px;
+}
+.systems .card-container ul li p{
+   text-align: justify;
+}
+.dices{
+  background: url("../images/homeBack.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+*{
+  margin:0;
+  padding: 0;
+}
+.dices{
+  background: #41222a;
+  color: #c29ba3;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+}
+.dices .dicecontainer{
+  background: #433535;
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  padding: 50px 0;
+}
+.dices .diceArea{
+  margin: 0 auto 30px auto;
+  width: 150px;
+  background: #41222a;
+}
+.dices .button{
+  padding: 10px; 
+  margin-right: 30px;
+  background: #000;
+  color: #c29ba3;
+  box-shadow: 3px 5px 5px #000;
+}
+.dices .buton: hover{
+  box-shadow: inset 1px 1px 1px #000;
+  cursos: pointer;
+}
+.dices .button: active{
+  background: #000;
+  color: #c29ba3;
+  box-shadow: inset 1px 1px 3px #000;
+}
+.dices p{
+  display: inline;
+  vertical-align: middle;
+  padding-top: 2px;
+}
